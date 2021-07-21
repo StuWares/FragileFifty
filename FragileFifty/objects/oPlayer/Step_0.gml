@@ -3,8 +3,6 @@
 var xMove = keyboard_check(ord("D")) - keyboard_check(ord("A"));
 var yMove = keyboard_check(ord("S")) - keyboard_check(ord("W"));
 
-var key_shoot = keyboard_check_pressed(vk_space) || keyboard_check_pressed(vk_lshift); //  shoots with space or left shift
-
 var ySpeed = yMove * player_speed;
 var xSpeed = xMove * player_speed;
 

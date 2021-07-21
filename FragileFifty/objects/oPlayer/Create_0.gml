@@ -1,2 +1,2 @@
 /// @description Variables
-player_speed = 4;
+player_speed = 5;

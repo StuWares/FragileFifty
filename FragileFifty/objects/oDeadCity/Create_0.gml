@@ -1,0 +1,1 @@
+explosionTimer = 30;
