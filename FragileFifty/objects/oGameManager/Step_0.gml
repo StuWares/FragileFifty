@@ -1,4 +1,5 @@
-/// @description Control waves
+/// @description Control game
+
 
 
 // Spawn a new wave once all enemies are destroyed

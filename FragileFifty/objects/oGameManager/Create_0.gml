@@ -8,6 +8,6 @@ global.enemyWave = 1;
 global.enemiesDestroyed = 0;
 global.playerShield = 1;
 global.playerHP = 10;
-global.citiesRemaining = 1;
+global.citiesRemaining = 2;
 
 
