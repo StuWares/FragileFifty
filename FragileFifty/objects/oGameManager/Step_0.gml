@@ -12,6 +12,13 @@ if (started == 1) {
 if (global.citiesRemaining <= 0) instance_destroy(oPlayer);
 
 
+//// HTML 5 scaling code
+//if (browser_width != width || browser_height != height)
+//    {
+//    width = min(base_width, browser_width);
+//    height = min(base_height, browser_height);
+//    scale_canvas(base_width, base_height, width, height, true);
+//    }
 
 
 // Spawn a new wave once all enemies are destroyed

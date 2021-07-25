@@ -12,4 +12,8 @@ global.citiesRemaining = 2;
 
 started = 0;
 
-
+// html 5 browser scaling
+//base_width = room_width;
+//base_height = room_height;
+//width = base_width;
+//height = base_height;

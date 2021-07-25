@@ -16,20 +16,20 @@ ds_list_add(waves,[1,oEnemy,0,60]);
 ds_list_add(waves,[1,oEnemy,0,100]);
 
 
-ds_list_add(waves,[2,oEnemy,1,10]);
-ds_list_add(waves,[2,oEnemy,1,30]);
-ds_list_add(waves,[2,oEnemy,0,10]);
+ds_list_add(waves,[2,oEnemy,1,0]);
+ds_list_add(waves,[2,oEnemy,1,40]);
+ds_list_add(waves,[2,oEnemy,0,00]);
 ds_list_add(waves,[2,oEnemy,0,40]);
-ds_list_add(waves,[2,oEnemy,1,50]);
-ds_list_add(waves,[2,oEnemy,0,60]);
-ds_list_add(waves,[2,oEnemy,1,80]);
-ds_list_add(waves,[2,oEnemy,0,100]);
+ds_list_add(waves,[2,oEnemy,1,90]);
+ds_list_add(waves,[2,oEnemy,0,90]);
 ds_list_add(waves,[2,oEnemy,1,120]);
-ds_list_add(waves,[2,oEnemy,0,160]);
+ds_list_add(waves,[2,oEnemy,0,140]);
+ds_list_add(waves,[2,oEnemy,1,160]);
+ds_list_add(waves,[2,oEnemy,0,180]);
 
 ds_list_add(waves,[3,oEnemy,0,30]);
 ds_list_add(waves,[3,oEnemy,0,80]);
-ds_list_add(waves,[3,oEnemy,0,100]);
+ds_list_add(waves,[3,oEnemy,0,110]);
 ds_list_add(waves,[3,oEnemy,0,150]);
 ds_list_add(waves,[3,oEnemy,0,180]);
 ds_list_add(waves,[3,oEnemy,1,10]);
