@@ -5,3 +5,4 @@ if (enemy_speed == 0) enemy_speed++; // prevents enemy spawning bug due to 0 x a
 ySpeed =  enemy_speed;
 xSpeed =  enemy_speed;
 hitPoints = 10;
+collisionTimer = 60; // self collision immunity when first spawned

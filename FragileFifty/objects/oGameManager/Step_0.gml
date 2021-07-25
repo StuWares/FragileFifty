@@ -1,4 +1,16 @@
 /// @description Control game
+if (started == 0) && (keyboard_check(vk_space)) {
+	started = 1;
+}
+
+global.currentEnemiesOnScreen = instance_number(oEnemy);
+if (started == 1) {
+	started = 2;
+	instance_create_layer(672,567,"Player",oPlayer);
+}
+
+if (global.citiesRemaining <= 0) instance_destroy(oPlayer);
+
 
 
 

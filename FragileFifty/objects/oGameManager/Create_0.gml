@@ -1,13 +1,15 @@
 /// @description Define Global Variables
-randomize();
-global.city1HP = 10;
-global.city2HP = 10;
-global.currentEnemiesOnScreen = instance_number(oEnemy);
+randomize(); // recreates the seed used for randomm number generation - prevents repitition.
+//global.city1HP = 10;
+//global.city2HP = 10;
+global.currentEnemiesOnScreen = 0;
 global.enemiesRemaining = 50;
 global.enemyWave = 1;
 global.enemiesDestroyed = 0;
 global.playerShield = 1;
 global.playerHP = 10;
 global.citiesRemaining = 2;
+
+started = 0;
 
 

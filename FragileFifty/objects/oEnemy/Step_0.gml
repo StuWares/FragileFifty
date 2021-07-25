@@ -8,14 +8,14 @@ if (sign(ySpeed) == 1) {
 else {
 	image_yscale = sign(ySpeed);
 }
-
+collisionTimer--;
 // vertical movement and collision
-if (place_meeting(x,y+ySpeed,oEnemy)) {
+if (place_meeting(x,y+ySpeed,oEnemy)) && (collisionTimer < 0) {
 	
 	while (!place_meeting(x,y+sign(ySpeed),oEnemy)) {
 		y += sign(ySpeed);
 	}
-	hitPoints--;
+	// hitPoints--; // removed damage by collision with other enemies - too easy!
 	ySpeed = -ySpeed;
 }
 if (place_meeting(x,y+ySpeed,oWall)) {
@@ -29,7 +29,7 @@ y += ySpeed;
 
 
 // horizontal movement
-if (place_meeting(x+xSpeed,y,oEnemy)) {
+if (place_meeting(x+xSpeed,y,oEnemy)) && (collisionTimer < 0) {
 	
 	while (!place_meeting(x+sign(xSpeed),y,oEnemy)) {
 		x += sign(xSpeed);
