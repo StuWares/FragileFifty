@@ -3,6 +3,13 @@
 var xMove = keyboard_check(ord("D")) - keyboard_check(ord("A"));
 var yMove = keyboard_check(ord("S")) - keyboard_check(ord("W"));
 
+if (rocketImpactTimer > 0) {
+	player_speed = 2;
+	rocketImpactTimer--;
+} else {
+	player_speed = 5;
+}
+
 var ySpeed = yMove * player_speed;
 var xSpeed = xMove * player_speed;
 
