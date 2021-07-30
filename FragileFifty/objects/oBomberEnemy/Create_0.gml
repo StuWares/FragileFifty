@@ -1,5 +1,5 @@
 /// @description Set up
-path_start(pBomber0,2,path_action_continue,true);
+path_start(pBomber0,3,path_action_continue,true);
 enemy_speed = 3;
 ySpeed =  enemy_speed;
 xSpeed =  enemy_speed;

@@ -7,4 +7,8 @@ draw_text(x,y,
 >Ram enemies to destroy
 them!
 
+>Block rockets with
+your ship before
+they hit the cities!
+
 >Press R to restart.");

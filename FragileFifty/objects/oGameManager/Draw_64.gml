@@ -6,5 +6,5 @@ if (global.enemiesRemaining <= 0) && (global.citiesRemaining > 0) {
 	draw_text(x,y,
 	@"The alien fleet has been defeated!
 	
-	                ggwp :D");
+	                gg wp :)");
 }

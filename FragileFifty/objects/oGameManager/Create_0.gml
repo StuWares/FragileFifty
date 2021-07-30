@@ -6,9 +6,10 @@ global.currentEnemiesOnScreen = 0;
 global.enemiesRemaining = 50;
 global.enemyWave = 1;
 global.enemiesDestroyed = 0;
-global.playerShield = 1;
-global.playerHP = 10;
+//global.playerShield = 1;
+//global.playerHP = 10;
 global.citiesRemaining = 2;
+audio_play_sound(snd_mainTheme,1,true);
 
 started = 0;
 
